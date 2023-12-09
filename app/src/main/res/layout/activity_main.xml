@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/radha"></ImageView>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Aniruddha"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:text="Coder and Thinker" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="SKILLS">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="EDUCATION">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="WORK"
+            android:layout_weight="1"
+            android:layout_margin="20dp">
+
+        </Button>
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ACHIVEMENT"
+            android:layout_weight="1"
+            android:layout_margin="20dp">
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
